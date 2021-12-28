@@ -1,4 +1,4 @@
-"""
+''''
 ******
 PART 3
 ******
@@ -15,7 +15,17 @@ Enter the height: 3
 *******
 *******
 *******
-
-"""
+'''
 
 #write your code here 
+
+base = int(input("enter the base: "))
+height = int(input("enter the height: "))
+
+base = str("*" * base)
+
+
+for n in range (1, height + 1):
+  print(base)
+
+
